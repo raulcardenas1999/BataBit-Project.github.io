@@ -27,7 +27,71 @@ html{
     font-family: 'DM Sans', sans-serif;
 }
 /*Header*/
-
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 32rem;
+    height: 33.4rem;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+header img{
+    width: 15rem;
+    height: 2.4rem;
+    margin-top: 6rem;
+    align-self: center; /*Me permite centrar un solo elementos de un contenedor padre flex*/
+}
+.header--tittle-container{
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    height: 21.8rem;
+    margin-top: 4rem;
+    text-align: center;
+    align-self: center;
+}
+.header--tittle-container h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.header--tittle-container p{
+    margin-top: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
+}
+.header--tittle-container .header--button{
+    position: absolute;
+    left: calc(50% - 114.5px);
+    top: 27rem;
+    display: block;
+    margin-top: 3.5rem;
+    padding: 1.5rem;
+    width: 22.9rem;
+    height: 4.8rem;
+    background-color: var(--off-white);
+    /* Sombra */
+    box-shadow: 0rem 0.4rem 0.8rem rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+.header--button span{
+    display: inline-block;
+    width: 1.3rem;
+    height: 0.8rem;
+    margin-left: 0.1rem;
+    background-image: url('./assets/icons/down-arrow.svg');
+}
 /*Main*/
 
 /*Footer*/
