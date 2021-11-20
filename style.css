@@ -342,10 +342,10 @@ main{
     position: relative;
     scroll-snap-align: center; /*La propiedad CSS scroll-snap-type establece qué tan estrictamente se aplican los puntos de snap en el contenedor de desplazamiento en caso de que haya uno, me permite colocar la pantalla inicial en todo el centro del contenedor*/
     width: 70%;
-    min-width: 23rem;
+    min-width: 19rem;
     max-width: 30rem;
     height: 25rem;
-    margin: 5rem 2rem 0;
+    margin: 5rem 0.5rem 0;
     padding: 0 1.5rem;
     background-color: var(--just-white);
     border-radius: 1.5rem;
